@@ -1,9 +1,15 @@
 @import "fonts/fonts";
+@import "base/variables";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/button";
 
 * {
     font-family: "Gilroy" , sans-serif;
 }
 
-p {
-    font-weight: 500;
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
