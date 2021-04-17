@@ -3,8 +3,12 @@
     font-size: 36px;
     color: #0D0D0D;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     &_main {
         color:   #FFFFFF;
+        text-align: center;
+    }
+    &_cat {
+        text-align: center;
     }
 }
